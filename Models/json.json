@@ -1,0 +1,77 @@
+{
+    "id": 30,
+    "thaiName": "ทดสอบสร้างพร้อมกับแก้ไข",
+    "engName": "Test Create With Chang Data",
+    "shortName": "TCWCD",
+    "detail": null,
+    "isActive": true,
+    "createDate": "2024-07-18T16:35:23.09",
+    "updateDate": "2024-07-18T16:35:23.09",
+    "isDeleted": false,
+    "isLastDelete": false,
+    "createBy": 6,
+    "cbesLogHeaders": [
+      {
+        "id": 21,
+        "round": 1,
+        "remark": "This is Create With Heaader",
+        "createDate": "2024-07-18T16:35:23.16",
+        "updateDate": "2024-07-18T16:35:23.16",
+        "isDeleted": false,
+        "cbesLogTypeId": 4,
+        "cbesLogId": 22,
+        "cbesId": 30,
+        "updateBy": 6,
+        "cbes": null,
+        "cbesLog": null,
+        "cbesLogType": null,
+        "cbesWithSubSupervisorLogs": [],
+        "cbesWithSupervisorLogs": [],
+        "maturityWithSupervisorLogs": [],
+        "updateByNavigation": null
+      }
+    ],
+    "cbeswithSupervisors": [],
+    "cbesWithSubSupervisors": [],
+    "cbesProcesses": [
+        {
+            "id": 0,
+            "name": "Process3",
+            "weight": 50,
+            "createDate": "2024-07-18T16:48:22.94",
+            "updateDate": "2024-07-18T16:48:22.94",
+            "isDeleted": false,
+            "processHeaderId": null,
+            "cbesId": 0,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+                {
+                    "id": 0,
+                    "name": "Process3.1",
+                    "weight": 25,
+                    "createDate": "2024-07-18T16:48:27.72",
+                    "updateDate": "2024-07-18T16:48:27.72",
+                    "isDeleted": false,
+                    "processHeaderId": 0,
+                    "cbesId": 0,
+                    "cbesMaturities": [],
+                    "processHeader": null,
+                    "inverseProcessHeader": [
+                        {
+                            "id": 0,
+                            "name": "Process3.1.1",
+                            "weight": 25,
+                            "createDate": "2024-07-18T16:48:27.72",
+                            "updateDate": "2024-07-18T16:48:27.72",
+                            "isDeleted": false,
+                            "processHeaderId": 0,
+                            "cbesId": 0,
+                            "cbesMaturities": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+  }

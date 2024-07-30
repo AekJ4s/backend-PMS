@@ -1,0 +1,6 @@
+@CBEsApi_HostAddress = http://localhost:5101
+
+GET {{CBEsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

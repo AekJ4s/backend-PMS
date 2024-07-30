@@ -1,0 +1,310 @@
+{
+    "id": 10,
+    "thaiName": "CBEs Test",
+    "engName": "----",
+    "shortName": "TS",
+    "detail": null,
+    "isActive": true,
+    "createDate": "2024-06-24T09:53:46.533",
+    "updateDate": "2024-06-24T09:53:46.533",
+    "isDeleted": false,
+    "isLastDelete": false,
+    "createBy": 1,
+    "cbesLogHeaders": [],
+    "cbeswithSupervisors": [],
+    "cbesWithSubSupervisors": [],
+    "cbesProcesses": [
+        {
+            "id": 37,
+            "name": "คำทักทาย",
+            "weight": 100,
+            "createDate": "2024-06-24T09:53:46.533",
+            "updateDate": "2024-06-24T09:53:46.533",
+            "isDeleted": false,
+            "processHeaderId": null,
+            "cbesId": 10,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+                {
+                    "id": 38,
+                    "name": "1. ภาษาไทย",
+                    "weight": 50,
+                    "createDate": "2024-06-24T09:53:46.533",
+                    "updateDate": "2024-06-24T09:53:46.533",
+                    "isDeleted": false,
+                    "processHeaderId": 37,
+                    "cbesId": 10,
+                    "cbesMaturities": [],
+                    "processHeader": null,
+                    "inverseProcessHeader": [
+                        {
+                            "id": 39,
+                            "name": "1.1 สวัสดีครับ",
+                            "weight": 25,
+                            "createDate": "2024-06-24T09:53:46.533",
+                            "updateDate": "2024-06-24T09:53:46.533",
+                            "isDeleted": false,
+                            "processHeaderId": 38,
+                            "cbesId": 10,
+                            "cbesMaturities": [
+                                {
+                                    "id": 116,
+                                    "detail": "ประเมิน1",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 1,
+                                    "cbesProcessId": 39,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 117,
+                                    "detail": "ประเมิน2",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 2,
+                                    "cbesProcessId": 39,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 118,
+                                    "detail": "ประเมิน3",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 3,
+                                    "cbesProcessId": 39,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 119,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 4,
+                                    "cbesProcessId": 39,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 120,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 5,
+                                    "cbesProcessId": 39,
+                                    "maturityWithSupervisors": []
+                                }
+                            ],
+                            "processHeader": null,
+                            "inverseProcessHeader": []
+                        },
+                        {
+                            "id": 40,
+                            "name": "1.2 สวัสดีค่ะ",
+                            "weight": 25,
+                            "createDate": "2024-06-24T09:53:46.533",
+                            "updateDate": "2024-06-24T09:53:46.533",
+                            "isDeleted": false,
+                            "processHeaderId": 38,
+                            "cbesId": 10,
+                            "cbesMaturities": [
+                                {
+                                    "id": 121,
+                                    "detail": "ไม่มีการประเมิน",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 1,
+                                    "cbesProcessId": 40,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 122,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 2,
+                                    "cbesProcessId": 40,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 123,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 3,
+                                    "cbesProcessId": 40,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 124,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 4,
+                                    "cbesProcessId": 40,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 125,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 5,
+                                    "cbesProcessId": 40,
+                                    "maturityWithSupervisors": []
+                                }
+                            ],
+                            "processHeader": null,
+                            "inverseProcessHeader": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "คำประชดประชัน",
+            "weight": 100,
+            "createDate": "2024-06-24T09:53:46.533",
+            "updateDate": "2024-06-24T09:53:46.533",
+            "isDeleted": false,
+            "processHeaderId": null,
+            "cbesId": 10,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+                {
+                    "id": 42,
+                    "name": "1.ภาษาไทย",
+                    "weight": 50,
+                    "createDate": "2024-06-24T09:53:46.533",
+                    "updateDate": "2024-06-24T09:53:46.533",
+                    "isDeleted": false,
+                    "processHeaderId": 41,
+                    "cbesId": 10,
+                    "cbesMaturities": [],
+                    "processHeader": null,
+                    "inverseProcessHeader": [
+                        {
+                            "id": 43,
+                            "name": "1.1 เวรเอ๊ย",
+                            "weight": 25,
+                            "createDate": "2024-06-24T09:53:46.533",
+                            "updateDate": "2024-06-24T09:53:46.533",
+                            "isDeleted": false,
+                            "processHeaderId": 42,
+                            "cbesId": 10,
+                            "cbesMaturities": [
+                                {
+                                    "id": 126,
+                                    "detail": "ไม่มีการประเมิน",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 1,
+                                    "cbesProcessId": 43,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 127,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 2,
+                                    "cbesProcessId": 43,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 128,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 3,
+                                    "cbesProcessId": 43,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 129,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 4,
+                                    "cbesProcessId": 43,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 130,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 5,
+                                    "cbesProcessId": 43,
+                                    "maturityWithSupervisors": []
+                                }
+                            ],
+                            "processHeader": null,
+                            "inverseProcessHeader": []
+                        },
+                        {
+                            "id": 44,
+                            "name": "1.2 เวรกรรม",
+                            "weight": 25,
+                            "createDate": "2024-06-24T09:53:46.533",
+                            "updateDate": "2024-06-24T09:53:46.533",
+                            "isDeleted": false,
+                            "processHeaderId": 42,
+                            "cbesId": 10,
+                            "cbesMaturities": [
+                                {
+                                    "id": 131,
+                                    "detail": "ไม่มีการประเมิน",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 1,
+                                    "cbesProcessId": 44,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 132,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 2,
+                                    "cbesProcessId": 44,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 133,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 3,
+                                    "cbesProcessId": 44,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 134,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 4,
+                                    "cbesProcessId": 44,
+                                    "maturityWithSupervisors": []
+                                },
+                                {
+                                    "id": 135,
+                                    "detail": "---",
+                                    "createDate": "2024-07-12T09:53:46.533",
+                                    "updateDate": "2024-07-12T09:53:46.533",
+                                    "lv": 5,
+                                    "cbesProcessId": 44,
+                                    "maturityWithSupervisors": []
+                                }
+                            ],
+                            "processHeader": null,
+                            "inverseProcessHeader": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

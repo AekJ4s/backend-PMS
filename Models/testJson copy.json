@@ -1,0 +1,355 @@
+{
+  "id": 55,
+  "thaiName": "Test Post CBE With Header",
+  "engName": "English Heaader",
+  "shortName": "ECHEAS",
+  "detail": null,
+  "isActive": true,
+  "createDate": "2024-07-25T15:54:47.007",
+  "updateDate": "2024-07-25T15:54:47.007",
+  "isDeleted": false,
+  "isLastDelete": false,
+  "createBy": 1,
+  "cbesLogHeaders": [
+    {
+      "id": 0,
+      "round": 1,
+      "remark": "ไม่บอก",
+      "createDate": null,
+      "updateDate": null,
+      "isDeleted": null,
+      "cbesLogTypeId": null,
+      "cbesLogId": null,
+      "cbesId": null,
+      "updateBy": null,
+      "cbes": null,
+      "cbesLog": null,
+      "cbesLogType": null,
+      "cbesWithSubSupervisorLogs": [],
+      "cbesWithSupervisorLogs": [],
+      "maturityWithSupervisorLogs": [],
+      "updateByNavigation": null
+    }
+  ],
+  "cbeswithSupervisors": [],
+  "cbesWithSubSupervisors": [],
+  "cbesProcesses": [
+    {
+      "id": 176,
+      "name": "Process1",
+      "weight": 50,
+      "createDate": "2024-07-25T15:54:47.007",
+      "updateDate": "2024-07-25T15:54:47.007",
+      "isDeleted": false,
+      "processHeaderId": null,
+      "cbesId": 55,
+      "cbes": null,
+      "cbesIndicators": [],
+      "cbesMaturities": [],
+      "cbesProcessPlannings": [],
+      "cbesProcessResults": [],
+      "cbesProcessTargets": [],
+      "inverseProcessHeader": [
+        {
+          "id": 178,
+          "name": "Process1.1",
+          "weight": 25,
+          "createDate": "2024-07-25T15:54:47.007",
+          "updateDate": "2024-07-25T15:54:47.007",
+          "isDeleted": false,
+          "processHeaderId": 176,
+          "cbesId": 55,
+          "cbes": null,
+          "cbesIndicators": [],
+          "cbesMaturities": [],
+          "cbesProcessPlannings": [],
+          "cbesProcessResults": [],
+          "cbesProcessTargets": [
+            {
+              "id": 0,
+              "year": 2555,
+              "targetPoint": 555,
+              "cbesProcessId": 178,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2556,
+              "targetPoint": 666,
+              "cbesProcessId": 178,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2557,
+              "targetPoint": 777,
+              "cbesProcessId": 178,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            }
+          ],
+          "inverseProcessHeader": [],
+          "processHeader": null
+        },
+        {
+          "id": 179,
+          "name": "Process1.2",
+          "weight": 25,
+          "createDate": "2024-07-25T15:54:47.007",
+          "updateDate": "2024-07-25T15:54:47.007",
+          "isDeleted": false,
+          "processHeaderId": 176,
+          "cbesId": 55,
+          "cbes": null,
+          "cbesIndicators": [],
+          "cbesMaturities": [],
+          "cbesProcessPlannings": [],
+          "cbesProcessResults": [],
+          "cbesProcessTargets": [
+            {
+              "id": 0,
+              "year": 2555,
+              "targetPoint": 123,
+              "cbesProcessId": 179,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2556,
+              "targetPoint": 888,
+              "cbesProcessId": 179,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2557,
+              "targetPoint": 999,
+              "cbesProcessId": 179,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            }
+          ],
+          "inverseProcessHeader": [
+            {
+              "id": 181,
+              "name": "Process1.2.1",
+              "weight": 25,
+              "createDate": "2024-07-25T15:54:47.007",
+              "updateDate": "2024-07-25T15:54:47.007",
+              "isDeleted": false,
+              "processHeaderId": 179,
+              "cbesId": 55,
+              "cbes": null,
+              "cbesIndicators": [],
+              "cbesMaturities": [
+                {
+                  "id": 369,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 1,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 181,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 370,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 2,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 181,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 371,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 3,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 181,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 372,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 4,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 181,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 373,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 5,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 181,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                }
+              ],
+              "cbesProcessPlannings": [],
+              "cbesProcessResults": [],
+              "cbesProcessTargets": [],
+              "inverseProcessHeader": [],
+              "processHeader": null
+            }
+          ],
+          "processHeader": null
+        }
+      ],
+      "processHeader": null
+    },
+    {
+      "id": 177,
+      "name": "Process2",
+      "weight": 50,
+      "createDate": "2024-07-25T15:54:47.007",
+      "updateDate": "2024-07-25T15:54:47.007",
+      "isDeleted": false,
+      "processHeaderId": null,
+      "cbesId": 55,
+      "cbes": null,
+      "cbesIndicators": [],
+      "cbesMaturities": [],
+      "cbesProcessPlannings": [],
+      "cbesProcessResults": [],
+      "cbesProcessTargets": [],
+      "inverseProcessHeader": [
+        {
+          "id": 180,
+          "name": "Process2.1",
+          "weight": 25,
+          "createDate": "2024-07-25T15:54:47.007",
+          "updateDate": "2024-07-25T15:54:47.007",
+          "isDeleted": false,
+          "processHeaderId": 177,
+          "cbesId": 55,
+          "cbes": null,
+          "cbesIndicators": [],
+          "cbesMaturities": [],
+          "cbesProcessPlannings": [],
+          "cbesProcessResults": [],
+          "cbesProcessTargets": [
+            {
+              "id": 0,
+              "year": 2555,
+              "targetPoint": 111,
+              "cbesProcessId": 180,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2556,
+              "targetPoint": 222,
+              "cbesProcessId": 180,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            },
+            {
+              "id": 0,
+              "year": 2557,
+              "targetPoint": 333,
+              "cbesProcessId": 180,
+              "cbesProcess": null,
+              "cbesProcessResults": []
+            }
+          ],
+          "inverseProcessHeader": [
+            {
+              "id": 182,
+              "name": "Process2.2.1",
+              "weight": 25,
+              "createDate": "2024-07-25T15:54:47.007",
+              "updateDate": "2024-07-25T15:54:47.007",
+              "isDeleted": false,
+              "processHeaderId": 180,
+              "cbesId": 55,
+              "cbes": null,
+              "cbesIndicators": [],
+              "cbesMaturities": [
+                {
+                  "id": 374,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 1,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 182,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 375,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 2,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 182,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 376,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 3,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 182,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 377,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 4,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 182,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                },
+                {
+                  "id": 378,
+                  "detail": "กำหนดรายละเอียด",
+                  "lv": 5,
+                  "createDate": "2024-07-25T15:54:47.007",
+                  "updateDate": "2024-07-25T15:54:47.007",
+                  "isDeleted": false,
+                  "cbesProcessId": 182,
+                  "cbesProcess": null,
+                  "maturityWithSupervisors": []
+                }
+              ],
+              "cbesProcessPlannings": [],
+              "cbesProcessResults": [],
+              "cbesProcessTargets": [],
+              "inverseProcessHeader": [],
+              "processHeader": null
+            }
+          ],
+          "processHeader": null
+        }
+      ],
+      "processHeader": null
+    }
+  ]
+}

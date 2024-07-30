@@ -1,0 +1,389 @@
+{
+  "id": 35,
+  "thaiName": "เฮดเด๋อ",
+  "engName": "English Heaader",
+  "shortName": "ECHEAS",
+  "detail": null,
+  "isActive": true,
+  "createDate": "2024-07-18T16:44:45.34",
+  "updateDate": "2024-07-18T16:44:45.34",
+  "isDeleted": true,
+  "isLastDelete": false,
+  "createBy": 6,
+  "cbesLogHeaders": [
+    {
+      "id": 26,
+      "round": 1,
+      "remark": "This is Create With Heaader",
+      "createDate": "2024-07-18T16:46:52.61",
+      "updateDate": "2024-07-18T16:46:52.61",
+      "isDeleted": false,
+      "cbesLogTypeId": 4,
+      "cbesLogId": 27,
+      "cbesId": 35,
+      "updateBy": 6,
+      "cbes": null,
+      "cbesLog": null,
+      "cbesLogType": null,
+      "cbesWithSubSupervisorLogs": [],
+      "cbesWithSupervisorLogs": [],
+      "maturityWithSupervisorLogs": [],
+      "updateByNavigation": null
+    }
+  ],
+  "cbeswithSupervisors": [
+    {
+      "id": 9,
+      "cbesId": 35,
+      "positionId": 2,
+      "position": {
+        "id": 2,
+        "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+      }
+    }
+    ],
+    "cbesWithSubSupervisors": [],
+    "cbesProcesses": [
+      {
+        "id": 82,
+        "name": "Process1",
+        "weight": 50,
+        "createDate": "2024-07-18T16:44:45.34",
+        "updateDate": "2024-07-18T16:44:45.34",
+        "isDeleted": false,
+        "processHeaderId": null,
+        "cbesId": 35,
+        "cbesMaturities": [],
+        "processHeader": null,
+        "inverseProcessHeader": [
+          {
+            "id": 84,
+            "name": "Process1.1",
+            "weight": 25,
+            "createDate": "2024-07-18T16:46:52.54",
+            "updateDate": "2024-07-18T16:46:52.54",
+            "isDeleted": false,
+            "processHeaderId": 82,
+            "cbesId": null,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": []
+          },
+          {
+            "id": 85,
+            "name": "Process1.2",
+            "weight": 25,
+            "createDate": "2024-07-18T16:46:52.54",
+            "updateDate": "2024-07-18T16:46:52.54",
+            "isDeleted": false,
+            "processHeaderId": 82,
+            "cbesId": null,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+              {
+                "id": 87,
+                "name": "Process1.2.1",
+                "weight": 25,
+                "createDate": "2024-07-18T16:46:52.54",
+                "updateDate": "2024-07-18T16:46:52.54",
+                "isDeleted": false,
+                "processHeaderId": 85,
+                "cbesId": null,
+                "cbesMaturities": [
+                  {
+                    "id": 216,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 1,
+                    "cbesProcessId": 87,
+                    "maturityWithSupervisors": [
+                      {
+                        "id": 0,
+                        "cbesId": 35,
+                        "positionId": 2,
+                        "createDate": "2024-07-18T16:46:52.54",
+                        "updateDate": "2024-07-18T16:46:52.54",
+                        "isDeleted": false,
+                        "position": {
+                          "id": 2,
+                          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 217,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 2,
+                    "cbesProcessId": 87,
+                    "maturityWithSupervisors": [
+                      {
+                        "id": 0,
+                        "cbesId": 35,
+                        "positionId": 2,
+                        "createDate": "2024-07-18T16:46:52.54",
+                        "updateDate": "2024-07-18T16:46:52.54",
+                        "isDeleted": false,
+                        "position": {
+                          "id": 2,
+                          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 218,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 3,
+                    "cbesProcessId": 87,
+                    "maturityWithSupervisors": [
+                      {
+                        "id": 0,
+                        "cbesId": 35,
+                        "positionId": 2,
+                        "createDate": "2024-07-18T16:46:52.54",
+                        "updateDate": "2024-07-18T16:46:52.54",
+                        "isDeleted": false,
+                        "position": {
+                          "id": 2,
+                          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 219,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 4,
+                    "cbesProcessId": 87,
+                    "maturityWithSupervisors": [
+                      {
+                        "id": 0,
+                        "cbesId": 35,
+                        "positionId": 2,
+                        "createDate": "2024-07-18T16:46:52.54",
+                        "updateDate": "2024-07-18T16:46:52.54",
+                        "isDeleted": false,
+                        "position": {
+                          "id": 2,
+                          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": 220,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "isDeleted": false,
+                    "lv": 5,
+                    "cbesProcessId": 87,
+                    "maturityWithSupervisors": [
+                      {
+                        "id": 0,
+                        "cbesId": 35,
+                        "createDate": "2024-07-18T16:46:52.54",
+                        "updateDate": "2024-07-18T16:46:52.54",
+                        "positionId": 2,
+                        "position": {
+                          "id": 2,
+                          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "processHeader": null,
+                "inverseProcessHeader": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "name": "Process2",
+        "weight": 50,
+        "createDate": "2024-07-18T16:44:45.34",
+        "updateDate": "2024-07-18T16:44:45.34",
+        "isDeleted": false,
+        "processHeaderId": null,
+        "cbesId": 35,
+        "cbesMaturities": [],
+        "processHeader": null,
+        "inverseProcessHeader": [
+          {
+            "id": 86,
+            "name": "Process2.1",
+            "weight": 25,
+            "createDate": "2024-07-18T16:46:52.54",
+            "updateDate": "2024-07-18T16:46:52.54",
+            "isDeleted": false,
+            "processHeaderId": 83,
+            "cbesId": null,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+              {
+                "id": 88,
+                "name": "Process2.2.1",
+                "weight": 25,
+                "createDate": "2024-07-18T16:46:52.54",
+                "updateDate": "2024-07-18T16:46:52.54",
+                "isDeleted": false,
+                "processHeaderId": 86,
+                "cbesId": null,
+                "cbesMaturities": [
+                  {
+                    "id": 221,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 1,
+                    "cbesProcessId": 88,
+                    "maturityWithSupervisors": []
+                  },
+                  {
+                    "id": 222,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 2,
+                    "cbesProcessId": 88,
+                    "maturityWithSupervisors": []
+                  },
+                  {
+                    "id": 223,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 3,
+                    "cbesProcessId": 88,
+                    "maturityWithSupervisors": []
+                  },
+                  {
+                    "id": 224,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 4,
+                    "cbesProcessId": 88,
+                    "maturityWithSupervisors": []
+                  },
+                  {
+                    "id": 225,
+                    "detail": "กำหนดรายละเอียด",
+                    "createDate": "2024-07-18T16:46:52.54",
+                    "updateDate": "2024-07-18T16:46:52.54",
+                    "lv": 5,
+                    "cbesProcessId": 88,
+                    "maturityWithSupervisors": []
+                  }
+                ],
+                "processHeader": null,
+                "inverseProcessHeader": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "thaiName": "สร้างเฮดเดอร์พร้อมกับโครงการ",
+    "engName": "Create Header With CBE",
+    "shortName": "CHWC",
+    "detail": null,
+    "isActive": true,
+    "createDate": "2024-07-18T14:45:21.1",
+    "updateDate": "2024-07-18T14:45:21.1",
+    "isDeleted": false,
+    "isLastDelete": false,
+    "createBy": 6,
+    "cbesLogHeaders": [
+      {
+        "id": 19,
+        "round": 1,
+        "remark": "This is a test remark.",
+        "createDate": "2024-07-18T14:45:21.14",
+        "updateDate": "2024-07-18T14:45:21.14",
+        "isDeleted": false,
+        "cbesLogTypeId": 4,
+        "cbesLogId": 20,
+        "cbesId": 28,
+        "updateBy": 6,
+        "cbes": null,
+        "cbesLog": null,
+        "cbesLogType": null,
+        "cbesWithSubSupervisorLogs": [],
+        "cbesWithSupervisorLogs": [],
+        "maturityWithSupervisorLogs": [],
+        "updateByNavigation": null
+      }
+    ],
+    "cbeswithSupervisors": [
+      {
+        "id": 0,
+        "cbesId": 28,
+        "createDate": "2024-07-18T16:46:52.54",
+        "updateDate": "2024-07-18T16:46:52.54",
+        "positionId": 2,
+        "position": {
+          "id": 2,
+          "name": "ฝ่ายนโยบายและแผนงาน (ฝนย.)"
+        }
+      }
+    ],
+    "cbesWithSubSupervisors": [],
+    "cbesProcesses": [
+      {
+        "id": 0,
+        "name": "Process1",
+        "weight": 50,
+        "createDate": "2024-07-18T16:44:45.34",
+        "updateDate": "2024-07-18T16:44:45.34",
+        "isDeleted": false,
+        "processHeaderId": null,
+        "cbesId": 28,
+        "cbesMaturities": [],
+        "processHeader": null,
+        "inverseProcessHeader": [
+          {
+            "id": 0,
+            "name": "Process1.1",
+            "weight": 25,
+            "createDate": "2024-07-18T16:46:52.54",
+            "updateDate": "2024-07-18T16:46:52.54",
+            "isDeleted": false,
+            "processHeaderId": 0,
+            "cbesId": null,
+            "cbesMaturities": [],
+            "processHeader": null,
+            "inverseProcessHeader": [
+              {
+                "id": 0,
+                "name": "Process1.1.1",
+                "weight": 25,
+                "createDate": "2024-07-18T16:46:52.54",
+                "updateDate": "2024-07-18T16:46:52.54",
+                "isDeleted": false,
+                "processHeaderId": 0,
+                "cbesId": null,
+                "cbesMaturities": []
+              }
+            ]
+          }
+        ]
+      },
+    ]
+}
